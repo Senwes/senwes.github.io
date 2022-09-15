@@ -18,9 +18,8 @@ Always use a solutions folder if it does not already exist
 All Services are suffixed with dotService in order to make finding the actual DLL easy within a solution.
 
 ### Structure
-* Layered Architecture. Click [here](https://miro.com/app/board/uXjVPaY7IB4=/) to view or update this structure.
-* Gateway is a service using ocelot to direct and monitor incoming requests to our microservice architecture.
-* We employ a microservice architecture where each service owns its own business logic. 
+* Layered Architecture. Click [here](https://miro.com/app/board/uXjVPaY7IB4=/?share_link_id=528900992742) to view or update this structure in Miro.
+![image info](../images/Applications Architecture.jpg)
 * Our policy is each service does one thing and one thing well. 
 * The service business logic will not be repeated. Even though the Core project is available across services. 
 * All services will return a DTO and never an entity. The entity itself is shielded from the controller. A DBcontext cannot be initialized from the Business layer. 
@@ -28,7 +27,9 @@ All Services are suffixed with dotService in order to make finding the actual DL
 * Use relationships so that you limit DB connections. 
 
 ### Caching
-* Caching can be done using inline caching or cache action filters. Example of these can be found in the Globalntegration > Helpers > Filters Folder
+* In-Memory Cache in dotNet:
+1. Caching can be done using inline caching or cache action filters. Example of these can be found in the Globalntegration > Helpers > Filters Folder
+* For Angular caching, read [this](https://baldur.gitbook.io/angular/rxjs/rxjs/sharereplay) related article on ShareReplay.
 * Please take precaution when using caching. Refresh/Delete the cache when data changes etc.
 
 

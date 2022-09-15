@@ -4,7 +4,7 @@ title: Our Charter
 body_class: home
 ---
 
-1. Promote shared, not individual code ownership[^1][^2]
+1. Promote shared, not individual code ownership[^1] [^2]
 2. Fix root causes rather than further contributing to the rot[^3]
 3. Continuously improve documentation
 4. Don’t repeat tasks, automate

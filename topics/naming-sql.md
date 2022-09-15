@@ -11,9 +11,9 @@ body_class: code
 ### Encryption
 * SQL Encryption is always used for data that can identify any entity/person in accordance with POPI act. 
 * To query such a table a View will need to be created where the dbo.S_Decrypt method is called on the encrypted data. 
-* varbinary(max) column is used for encrypted data
+* varbinary(max) column is used for encrypted data.
 * SenwesWebEncryption project/ Base 64 encryption can be used for data in transit.
-* Mask POPIA sensitive columns: MASKED WITH (FUNCTION = 'partial(1, "xxxxx", 1)') 
+* Mask POPIA sensitive columns: MASKED WITH (FUNCTION = 'partial(1, "xxxxx", 1)') .
 
 ### DB Structure<br />
 <b>Senwes Applications employs a policy of business logic, does not reside in a DB but at the endpoint.</b>
@@ -27,18 +27,18 @@ body_class: code
 
 ### Table Structures
 1.  We always use word separators (underscore) to instead of spaces.
-2.	Upper Camel Case table name convention is used (Aka Pascal Case)
-3.	Example: FirstName, DateManagerApproved
-4.	Foreign Key Columns that have a relationship should be suffixed with _FK, Example: ManagerID_FK
-5.	Auto Incremented Primary keys are always named id
+2.	Upper Camel Case table name convention is used (Aka Pascal Case).
+3.	Example: FirstName, DateManagerApproved.
+4.	Foreign Key Columns that have a relationship should be suffixed with _FK, Example: ManagerID_FK.
+5.	Auto Incremented Primary keys are always named id.
 6.	AutoIncrement column should be named id in small letters to keep the standard with all other tables.
-7.	Foreign Keys should be named as follows (Table reference_FK), example: EmployeeDB_Main_FK
+7.	Foreign Keys should be named as follows (Table reference_FK), example: EmployeeDB_Main_FK.
 8.	All Tables should always try to Implement the following 4 tables: 
-9.	DateCreated, CreatedBy, CreatedByName, DateModified, ModifiedBy, ModifiedByName, IsRemoved
-10. OneID will be used to fill CreatedBy and ModifiedBy fields
-11.	OneID fields are always a varchar
-12.	EmployeeNo is always int.
-13.	No relationship must be made FROM a table that constantly changes, SiteContactDetails or EmployeeDB. The reverse is allowed. 
-14.	If you do not need to use varchar(max), 50 or 255 etc should be used instead
-15.	For SQL Encryption, varbinary(max) is used
-16.	SQL Views are always prefixed with vw. Example: vwEmployeeDB
+	DateCreated, CreatedBy, CreatedByName, DateModified, ModifiedBy, ModifiedByName, IsRemoved.
+9. OneID will be used to fill CreatedBy and ModifiedBy fields.
+10.	OneID fields are always a varchar.
+11.	EmployeeNo is always int.
+12.	No relationship must be made FROM a table that constantly changes, SiteContactDetails or EmployeeDB. The reverse is allowed. 
+13.	If you do not need to use varchar(max), 50 or 255 etc should be used instead.
+14.	For SQL Encryption, varbinary(max) is used.
+15.	SQL Views are always prefixed with vw. Example: vwEmployeeDB.

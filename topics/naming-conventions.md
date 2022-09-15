@@ -27,5 +27,5 @@ Senwes Applications employs a policy that <b>readability</b> of code trumps all 
 
 
 ### Frontend 
-
+[Angular Naming Conventions](naming-angular.html)
 

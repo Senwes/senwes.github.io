@@ -4,7 +4,7 @@ title: Development Process
 body_class: process
 ---
 
-Even before you tackle an issue, make sure to have the BVP (from the user), the Functional Spec (from the Business Analyst) and Technical Spec (from the Development Team). See [Project Documentation](project-documentation)
+Even before you tackle an issue, make sure to have the BVP (from the user), the Functional Spec (from the Business Analyst) and Technical Spec (from the Development Team). See [Project Documentation](project-documentation).
 
 Understand your part in the project.
 

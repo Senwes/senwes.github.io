@@ -4,7 +4,7 @@ title: Code Standards
 body_class: code
 ---
 
-The following checklist should be applied when conducting a [code review](code-reviews.html).
+The following checklist should be applied when conducting a [Code Review](code-reviews.html).
 
 ### Introduction
 
@@ -44,7 +44,7 @@ Senwes Applications policy is everything is secured unless otherwise stated.
 4.	Interface segregation: Do not create lengthy interfaces, instead of splitting them into smaller interfaces based on the functionality. The interface should not contain any dependencies (parameters), which are not required for the expected functionality.
 5.	Dependency Injection: Do not hardcode the dependencies, instead inject them.
 
-* Fix any broken windows. They are not someone else’s problem. See [charter](charter.html). However, please be respectful of your colleagues when doing this: more details below.
+* Fix any broken windows. They are not someone else’s problem. See [Out Charter](charter.html). However, please be respectful of your colleagues when doing this.
 * The repository/project should be Continuously Integrated - see [Continuous Integration](continuous-integration.html) for specifics.
 * The code should compile and run without error.
 * No commented out code blocks. Source control has history for a reason.
@@ -120,7 +120,7 @@ We need to be mindful of how our applications perform on many levels. We should 
 
 ### Tests
 
-* Ensure there are appropriate tests (unit/integration/browser). [See testing](testing.html) for more specifics.
+* Ensure there are appropriate tests (unit/integration/browser). See [Testing](testing.html) for more specifics.
 * Tests that rely on external services can result in failing tests. Use a mock/stub/spy.
 * Tests should be atomic and pass if they are run singularly or part of the suite. They should never depend on being run in a specific order or rely on the output of another test.
 * Waiting for elements on a page during browser tests is much preferred to sleep commands.
