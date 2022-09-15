@@ -27,4 +27,4 @@ A. Anyone at Senwes Applications Simply branch the repo[^1] and have at it. When
 
 A. Congratulations. You have a free pass to propose changes/improvements to align with standards described in this handbook. See the [charter](topics/charter.html) and our commitment to fixing broken windows.
 
-[^1]: [Handbook Repo](https://github.com/Senwes/senwes.github.io)
+[^1]: [Handbook Repo](https://github.com/Senwes/senwes.github.io){:target="_blank"}
