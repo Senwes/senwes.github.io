@@ -28,17 +28,19 @@ body_class: code
 ### Table Structures
 1.  We always use word separators (underscore) to instead of spaces.
 2.	Upper Camel Case table name convention is used (Aka Pascal Case).
-3.	Example: FirstName, DateManagerApproved.
-4.	Foreign Key Columns that have a relationship should be suffixed with _FK, Example: ManagerID_FK.
-5.	Auto Incremented Primary keys are always named id.
-6.	AutoIncrement column should be named id in small letters to keep the standard with all other tables.
-7.	Foreign Keys should be named as follows (Table reference_FK), example: EmployeeDB_Main_FK.
-8.	All Tables should always try to Implement the following 4 tables: 
-	DateCreated, CreatedBy, CreatedByName, DateModified, ModifiedBy, ModifiedByName, IsRemoved.
-9. OneID will be used to fill CreatedBy and ModifiedBy fields.
-10.	OneID fields are always a varchar.
-11.	EmployeeNo is always int.
-12.	No relationship must be made FROM a table that constantly changes, SiteContactDetails or EmployeeDB. The reverse is allowed. 
-13.	If you do not need to use varchar(max), 50 or 255 etc should be used instead.
-14.	For SQL Encryption, varbinary(max) is used.
-15.	SQL Views are always prefixed with vw. Example: vwEmployeeDB.
+	> Example: RequestStatus
+3.	Auto Incremented Primary keys are always named <i>tablename</i>ID.
+	> Example: RequestStatusID
+4.	Foreign key columns that have a relationship should be suffixed with _FK.
+5.	Foreign keys should be named as follows <i>pkname</i>_FK.
+	> Example: RequestStatusID_FK
+7.	All tables should always try to Implement the following columns: 
+	> DateCreated, CreatedBy, CreatedByName, DateModified, ModifiedBy, ModifiedByName, IsRemoved
+8.  OneID will be used to fill CreatedBy and ModifiedBy fields.
+9.	OneID fields are always a varchar.
+10.	EmployeeNo is always int.
+11.	No relationship must be made FROM a table that constantly changes, SiteContactDetails or EmployeeDB. The reverse is allowed. 
+12.	If you do not need to use varchar(max), 50 or 255 etc should be used instead.
+13.	For SQL Encryption, varbinary(max) is used.
+14.	SQL Views are always prefixed with vw. 
+	> Example: vwEmployeeDB
