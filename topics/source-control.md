@@ -4,7 +4,7 @@ title: Source Control
 body_class: code
 ---
 
-All source is stored within the [Senwes Applications GitHub](https://github.com/ghostinthewires).
+All source is stored within the [Senwes Azure DevOps](https://senwes.visualstudio.com/){:target="_blank"}.
 
 Our culture around source code is one of Shared (or Collective) Code Ownership, this means that we are all, as a team, collectively responsible for our code. We all own the code and in principle any one of us can make changes anywhere. See [Our Charter](charter.html).
 
@@ -58,7 +58,7 @@ Further paragraphs come after blank lines.
 
 The wrapping of text at 50 characters for the Summary line and 72 characters for the body is very important, and is explained here[^4].
 
-[^1]: [GitHub Flow](https://guides.github.com/introduction/flow/)
-[^2]: [Commit Often, Perfect Later, Publish Once](https://sethrobertson.github.io/GitBestPractices/)
-[^3]: [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
-[^4]: [Whats with the 50/72 Rule](https://www.midori-global.com/blog/2018/04/02/git-50-72-rule)
+[^1]: [GitHub Flow](https://guides.github.com/introduction/flow/){:target="_blank"}
+[^2]: [Commit Often, Perfect Later, Publish Once](https://sethrobertson.github.io/GitBestPractices/){:target="_blank"}
+[^3]: [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/){:target="_blank"}
+[^4]: [Whats with the 50/72 Rule](https://www.midori-global.com/blog/2018/04/02/git-50-72-rule){:target="_blank"}

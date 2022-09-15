@@ -42,8 +42,8 @@ End to End Browser tests are by definition time consuming. In order to ensure th
 
 If your browser test suite is taking longer than 45 minutes to run, then it’s time to refactor.
 
-[^1]: [Unit Testing](https://www.geeksforgeeks.org/unit-testing-software-testing/)
-[^2]: [Never send a human to do a machines job](https://www.youtube.com/watch?v=_5Sr4EYH7M8)
+[^1]: [Unit Testing](https://www.geeksforgeeks.org/unit-testing-software-testing/){:target="_blank"}
+[^2]: [Never send a human to do a machines job](https://www.youtube.com/watch?v=_5Sr4EYH7M8){:target="_blank"}
 
 
 

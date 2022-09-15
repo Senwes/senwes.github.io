@@ -15,11 +15,11 @@ There are three main styles of review that we undertake:
 * **External Reviews** – Third-party plugins we’re seeking to use.
 * **Internal Reviews** – Standard reviewing process before code is merged. 
 * **In-Depth Reviews** – Internal reviews, during development process. As often as needed per project.<br />
-* [Microsoft Teams Group for PR's](https://teams.microsoft.com/l/channel/19%3acf0e4bbdfa1843e5b7280b0236600d9b%40thread.tacv2/Pull%2520Requests?groupId=d5a54dab-e541-4cc2-b7bb-76bff9db60a1&tenantId=85cbc532-a3c8-4261-98d0-1a8f3fe7307a)
+* [Microsoft Teams Group for PR's](https://teams.microsoft.com/l/channel/19%3acf0e4bbdfa1843e5b7280b0236600d9b%40thread.tacv2/Pull%2520Requests?groupId=d5a54dab-e541-4cc2-b7bb-76bff9db60a1&tenantId=85cbc532-a3c8-4261-98d0-1a8f3fe7307a){:target="_blank"}
 
 Each of these styles of review has different factors to check for, but generally speaking, internal reviews are stricter on code quality checks, while external reviews are stricter on security and performance checks. Generally speaking, internal reviews have a higher level of trust, so reviews can focus more on ensuring quality is high. With that said, security and performance must always be a factor regardless of source, as they are critical to the end product.
 
-If an external review reveals a plugin is technically OK, but has low code quality, checking for alternatives is typically a good idea. These plugins are generally harder to maintain, and are a [code smell](https://blog.codinghorror.com/code-smells/) . If a plugin has a large development team that is active, this can outweigh the code quality factor, but it’s always worth checking.
+If an external review reveals a plugin is technically OK, but has low code quality, checking for alternatives is typically a good idea. These plugins are generally harder to maintain, and are a [code smell](https://blog.codinghorror.com/code-smells/){:target="_blank"}. If a plugin has a large development team that is active, this can outweigh the code quality factor, but it’s always worth checking.
 
 Internal reviews should generally be performed piecemeal on the project; in other words, they should be done on pull requests before merge. This provides a much smaller set of code to be reviewed, and allows more in-depth reviews. Larger blocks of code are harder to review fully. The flip-side of this is that it can be harder to see the larger picture of the whole project, so the reviewer should be conscious of how code fits into the context of the project. In-depth reviews can be done by-request when someone works on something and wants a closer look to verify what they’re doing is right.
 
@@ -47,7 +47,7 @@ Code reviews should usually check that coding style matches our coding style gui
 
 Internal reviews are typically the only ones that need style checking, as we’re not responsible for external plugins. The exception to this is if we’re specifically asked for it.
 
-Style checks should mostly be automated, as it’s easy to miss when writing or during a review. This can be performed by the Super Linter, and can be enabled on a repo using the [Super Linter](https://github.com/github/super-linter/blob/master/README.md). 
+Style checks should mostly be automated, as it’s easy to miss when writing or during a review. This can be performed by the Super Linter, and can be enabled on a repo using the [Super Linter](https://github.com/github/super-linter/blob/master/README.md){:target="_blank"}. 
 
 ### Behaviour and Logic
 
@@ -58,7 +58,7 @@ Feel free to ask on any pull request for a more in-depth review; it’s always b
 ### Requesting a Review
 
 When your code is ready for review, it’s up to you to request the review. The way to do this is via the GitHub. Create a PR via Visual Studio or
-[Senwes Azure DevOps](https://senwes.visualstudio.com/)
+[Senwes Azure DevOps](https://senwes.visualstudio.com/){:target="_blank"}.
 * Navigate to your project
 * Select the Repo
 * Select you Branch

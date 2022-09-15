@@ -14,7 +14,7 @@ body_class: home
 8. Bias towards action
 9. Fight for the users
 
-[^1]: [The one cultural characteristic you need for a healthy codebase](https://www.stepsize.com/blog/the-one-cultural-characteristic-you-need-for-a-healthy-codebase)
-[^2]: [How To Build a Strong Engineering Culture](https://www.trio.dev/blog/engineering-culture)
-[^3]: [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
-[^4]: [The Twelve-Factor App](https://12factor.net/)
+[^1]: [The one cultural characteristic you need for a healthy codebase](https://www.stepsize.com/blog/the-one-cultural-characteristic-you-need-for-a-healthy-codebase){:target="_blank"}
+[^2]: [How To Build a Strong Engineering Culture](https://www.trio.dev/blog/engineering-culture){:target="_blank"}
+[^3]: [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory){:target="_blank"}
+[^4]: [The Twelve-Factor App](https://12factor.net/){:target="_blank"}

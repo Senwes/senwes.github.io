@@ -32,4 +32,4 @@ Artifacts should not contain code required during test and build, nor any develo
 
 If the artifact is a Docker container image, the same rules apply (except the third-party dependencies include the underlying OS).
 
-[^1]: [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+[^1]: [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html){:target="_blank"}

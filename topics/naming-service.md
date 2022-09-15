@@ -18,7 +18,7 @@ Always use a solutions folder if it does not already exist
 All Services are suffixed with dotService in order to make finding the actual DLL easy within a solution.
 
 ### Structure
-* Layered Architecture. Click [here](https://miro.com/app/board/uXjVPaY7IB4=/?share_link_id=528900992742) to view or update this structure in Miro.
+* Layered Architecture. Click [here](https://miro.com/app/board/uXjVPaY7IB4=/?share_link_id=528900992742){:target="_blank"} to view or update this structure in Miro.
 ![image info](../images/Applications Architecture.jpg)
 * Our policy is each service does one thing and one thing well. 
 * The service business logic will not be repeated. Even though the Core project is available across services. 
@@ -29,7 +29,7 @@ All Services are suffixed with dotService in order to make finding the actual DL
 ### Caching
 * In-Memory Cache in dotNet:
 1. Caching can be done using inline caching or cache action filters. Example of these can be found in the Globalntegration > Helpers > Filters Folder
-* For Angular caching, read [this](https://baldur.gitbook.io/angular/rxjs/rxjs/sharereplay) related article on ShareReplay.
+* For Angular caching, read [this](https://baldur.gitbook.io/angular/rxjs/rxjs/sharereplay){:target="_blank"} related article on ShareReplay.
 * Please take precaution when using caching. Refresh/Delete the cache when data changes etc.
 
 
@@ -71,5 +71,5 @@ Example: ApprovalDTO
 * <b>Private variables</b> start with an underscore: private bool _IsVisible;
 * <b>Paramenters</b> must be descriptive (<b>do not use</b>: int value) and start with lowercase then pascalCase: (int employeeNumber)
 * <b>Methods</b> give descriptive names as simple as possible. Starts with capital letter, then pascalCase. GetEmployee(int employeeNumber)
-* When a method has a return value that will not be used, use discards, this enhance its readability and maintainability. [Discards - C# Fundamentals](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/discards)
+* When a method has a return value that will not be used, use discards, this enhance its readability and maintainability. [Discards - C# Fundamentals](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/discards){:target="_blank"}
 * Always use curley brackets {} for if, switch, for, etc statements, even if it has only one line of code.

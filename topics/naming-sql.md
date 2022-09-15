@@ -5,7 +5,7 @@ body_class: code
 ---
 
 * Example for a naming a SQL table: HumanResources_PerformanceDevelopment_Approval
-* Datatype for datetime field should always be <b>DateTime2 </b> as recommended by Microsoft. [DateTime vs DateTime2 in Sql Server](https://www.tutorialsteacher.com/articles/datetime-vs-datetime2-in-sqlserver#:~:text=Microsoft%20recommends%20using%20DateTime2%20instead,Datetime2%20aligns%20with%20SQL%20standards.)
+* Datatype for datetime field should always be <b>DateTime2 </b> as recommended by Microsoft. [DateTime vs DateTime2 in Sql Server](https://www.tutorialsteacher.com/articles/datetime-vs-datetime2-in-sqlserver#:~:text=Microsoft%20recommends%20using%20DateTime2%20instead,Datetime2%20aligns%20with%20SQL%20standards){:target="_blank"}.
 * Dates are always displayed as yyyy-MM-DD HH:mm or yyyy/MM/DD HH:mm in en-ZA format.
 
 ### Encryption

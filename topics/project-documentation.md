@@ -17,7 +17,7 @@ As a standard, projects should also contain READMEs at the project root level. T
 
 Additional meta information about the project not specifically intended for engineers can be located in a project wiki in Confluence and linked.
 
-* Use [Miro](https://miro.com/login/) to create ERD, process flow and other project documentation.
+* Use [Miro](https://miro.com/login/){:target="_blank"} to create ERD, process flow and other project documentation.
 * Add the BVP (from the user), the functional spec (from the Business Analyst) and Technical Spec (from the development team) in the miro project documentation.
 
 ### APIs

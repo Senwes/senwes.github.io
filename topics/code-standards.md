@@ -31,7 +31,7 @@ Senwes Applications policy is everything is secured unless otherwise stated.
 * We used a scaled down token for certain methods/actions where only a token is passed in as from SAP.
 
 ### Layered Architecture
-* Click [here](https://miro.com/app/board/uXjVPaY7IB4=/) to view or update this structure.
+* Click [here](https://miro.com/app/board/uXjVPaY7IB4=/){:target="_blank"} to view or update this structure.
 
 ### General
 
@@ -44,7 +44,7 @@ Senwes Applications policy is everything is secured unless otherwise stated.
 4.	Interface segregation: Do not create lengthy interfaces, instead of splitting them into smaller interfaces based on the functionality. The interface should not contain any dependencies (parameters), which are not required for the expected functionality.
 5.	Dependency Injection: Do not hardcode the dependencies, instead inject them.
 
-* Fix any broken windows. They are not someone else’s problem. See [Out Charter](charter.html). However, please be respectful of your colleagues when doing this.
+* Fix any broken windows. They are not someone else’s problem. See [Our Charter](charter.html). However, please be respectful of your colleagues when doing this.
 * The repository/project should be Continuously Integrated - see [Continuous Integration](continuous-integration.html) for specifics.
 * The code should compile and run without error.
 * No commented out code blocks. Source control has history for a reason.
@@ -55,7 +55,7 @@ Senwes Applications policy is everything is secured unless otherwise stated.
 * Ensure code is defensive.
 * If signatures of functions have changed, check for redundant variables. Also, does the documentation block for the function correctly reflect its intended function and the parameters it accepts and values it returns.
 * If introducing a new external dependency, the appropriate version should be locked on to, rather than using fuzzy versioning.
-* Pick up issues that could/should have been picked up by a linter. If there is no linter, ask for one to be added. [Super Linter](https://github.com/github/super-linter/blob/master/README.md).
+* Pick up issues that could/should have been picked up by a linter. If there is no linter, ask for one to be added. [Super Linter](https://github.com/github/super-linter/blob/master/README.md){:target="_blank"}.
 * Don’t allow new TODOs without referencing an open issue for discussion.
 
 ### Technical debt and “fixing broken windows”
@@ -130,9 +130,9 @@ We need to be mindful of how our applications perform on many levels. We should 
 
 There should be living documentation - project READMEs, API documentation (if applicable), wiki pages, and/or infra runbooks. Ensure these are kept up-to-date in code changes. See [Project Documentation](project-documentation.html) for more specifics.
 
-[^1]: [OWASP Top-Ten](https://owasp.org/www-project-top-ten/)
-[^2]: [Technical debt](https://en.wikipedia.org/wiki/Technical_debt)
-[^3]: [Code smells](https://sourcemaking.com/refactoring/smells)
-[^4]: [Don’t repeat yourself - DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-[^5]: [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
-[^6]: [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
+[^1]: [OWASP Top-Ten](https://owasp.org/www-project-top-ten/){:target="_blank"}
+[^2]: [Technical debt](https://en.wikipedia.org/wiki/Technical_debt){:target="_blank"}
+[^3]: [Code smells](https://sourcemaking.com/refactoring/smells){:target="_blank"}
+[^4]: [Don’t repeat yourself - DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself){:target="_blank"}
+[^5]: [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns){:target="_blank"}
+[^6]: [KISS principle](https://en.wikipedia.org/wiki/KISS_principle){:target="_blank"}

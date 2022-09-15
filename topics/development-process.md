@@ -18,7 +18,7 @@ Before you start, make sure the issue is broken down to the minimum viable produ
 
 Issues should succinctly describe how to fix them. Vague descriptions make it hard to know when the issue is complete, and can make it harder for other people to get involved in the project.
 
-Create a development plan in [Microsoft Planner](https://tasks.office.com/senwes.co.za/en-US/Home/Planner/).
+Create a development plan in [Microsoft Planner](https://tasks.office.com/senwes.co.za/en-US/Home/Planner/){:target="_blank"}.
 * Create new project.
 * Divide project in workable standalone units.
 * Create buckets for:
@@ -36,7 +36,7 @@ Create a development plan in [Microsoft Planner](https://tasks.office.com/senwes
 
 **1. Take the issue**
 
-When working on an issue, make sure you’re not overlapping with existing work. This is typically handled by assigning the issue to yourself via [Microsoft Planner](https://tasks.office.com/senwes.co.za/en-US/Home/Planner/).
+When working on an issue, make sure you’re not overlapping with existing work. This is typically handled by assigning the issue to yourself via [Microsoft Planner](https://tasks.office.com/senwes.co.za/en-US/Home/Planner/){:target="_blank"}.
 
 **2. Write the code!**
 

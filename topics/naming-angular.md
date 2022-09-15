@@ -9,9 +9,9 @@ Please keep all bundles sizes under 2MB. Please note that the more packages a pr
 
 ### Site Standards
 Always work from the original template from the site you are working with. Layouts and ideas can be used that is in the template. The site must have the same look & standard. An easy example is modals, rather use the one that the template has then to import a new one that will increase the compiled application size. Clone the project from Azure DevOps.
-[Angular Startup Project](https://senwes.visualstudio.com/Applications/_git/Applications?path=/AngularStartupProject).
+[Angular Startup Project](https://senwes.visualstudio.com/Applications/_git/Applications?path=/AngularStartupProject){:target="_blank"}.
 
-Senwes Applications make use of [Syncfusion](https://ej2.syncfusion.com/angular/documentation/introduction/) keep under release version 19.? and [Nebular](https://akveo.github.io/nebular/docs/getting-started/what-is-nebular#what-is-nebular) third party components, with [Font Awesome](https://fontawesome.com/v4/) and [Eva Icons](https://akveo.github.io/eva-icons/#/).
+Senwes Applications make use of [Syncfusion](https://ej2.syncfusion.com/angular/documentation/introduction/){:target="_blank"} keep under release version 19.? and [Nebular](https://akveo.github.io/nebular/docs/getting-started/what-is-nebular#what-is-nebular){:target="_blank"} third party components, with [Font Awesome](https://fontawesome.com/v4/){:target="_blank"} and [Eva Icons](https://akveo.github.io/eva-icons/#/){:target="_blank"}.
 
 ### General
 * <b>Private variables</b> start with an underscore and lowercase then pascalCase: private bool _isVisible;

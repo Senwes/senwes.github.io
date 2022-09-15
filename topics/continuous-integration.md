@@ -12,4 +12,4 @@ CI should trigger automatically on Pull Requests to the main branch, and must ru
 
 If the project is open-sourced and the repository is public, the build should also be public.
 
-[^1]: [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+[^1]: [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html){:target="_blank"}
