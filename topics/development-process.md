@@ -42,7 +42,7 @@ When working on an issue, make sure you’re not overlapping with existing work.
 
 You’ve done the easy bits, now it’s time to actually do the work.
 
-<b>This work needs to happen on a branch. Create a project branch from the master branch.</b> The pattern you should use is `{ESM_project_number}_{name_of_project}`. <br /> `(e.g. 123_OneAgriVendor)`.<br />Then create barnches per featrure with this pattern `{ESM_project_number}_{name_of_project}_{name_of_feature}`<br /> `(e.g. 123_OneAgriVendor_ChangeMasterData)`.<br />
+<b>This work needs to happen on a branch. Create a project branch from the master branch.</b> The pattern you should use is `{ESM_project_number}_{name_of_project}`. <br /> `(e.g. 123_OneAgriVendor)`.<br />Then create branches per featrure with this pattern `{ESM_project_number}_{name_of_project}_{name_of_feature}`<br /> `(e.g. 123_OneAgriVendor_ChangeMasterData)`.<br />
 Please read <a href="/topics/source-control">this</a> important information when working with branches.
 
 **3. Push early, push often**

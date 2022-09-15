@@ -25,6 +25,6 @@ This guide is a living set of documents, and will be updated as we continue to r
 A. Anyone at Senwes Applications Simply branch the repo[^1] and have at it. When you’re done raise a pull request for review.
 ### Q. What if I encounter code that doesn’t follow the approach in this handbook?
 
-A. Congratulations. You have a free pass to make anything you encounter work as described in the handbook. See the [charter](topics/charter.html) and our commitment to fixing broken windows.
+A. Congratulations. You have a free pass to propose changes/improvements to align with standards described in this handbook. See the [charter](topics/charter.html) and our commitment to fixing broken windows.
 
-[^1]: [Handbook Repo](https://senwes.visualstudio.com/Applications/_git/Applications?version=GBmain)
+[^1]: [Handbook Repo](https://github.com/Senwes/senwes.github.io)
