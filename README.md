@@ -6,4 +6,6 @@ Specific project detail should live with specific projects - but everything shou
 
 All updates to the handbook are peer-reviewed by engineers at Senwes Applications and it represents our shared wisdom and values about our development practices, culture, and how projects should be put together.
 
-## [Link](https://senwes.github.io/) 🔗
+## [Handbook Link](https://senwes.github.io/) 🔗
+
+
