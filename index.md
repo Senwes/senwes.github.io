@@ -11,7 +11,7 @@ All updates to the handbook are peer-reviewed by engineers at Senwes Application
 
 ### An Important Note
 
-Key characteristics of a Senwes engineer is innovation, dedication and one that operates at a high pace and ownership. Senwes engineers are self starters, self organizing solution driven individuals that work well as a team. Innovation and new ways of doing things is what allowed us to accomplish so much with so little in such a short time. We often debate various things internally, and projects can have inconsistencies from each other. Sometimes, this is a good thing. The flip side of consistency can be monoculture, where experimentation is discouraged.
+Key characteristics of a Senwes engineer is innovation, dedication and one that operates at a high pace and ownership. Senwes engineers are self starters, self organizing solution driven individuals that work well as a team. Innovation and new ways of doing things is what allowed us to accomplish so much with so little in such a short time. 
 
 Engineers can often get caught up in issues like “what’s the best way to do this?”. While we obviously want to work from the best possible starting position. Take the best that’s available and make sure it is peer-reviewed.
 
