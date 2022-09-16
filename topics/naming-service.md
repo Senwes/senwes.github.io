@@ -4,17 +4,10 @@ title: Service Standards and Naming Conventions
 body_class: code
 ---
 
-Service Example
-Core Business Logic<br />
-> HumanResources<br />
->> PerformanceDevelopment<br />
->>> Approval.cs<br />
+Make sure to read the [Handbook Extension: Services](https://senwes.visualstudio.com/Applications/_wiki/wikis/Applications.wiki/24/Engineering-Handbook-Extension-Services){:target="_blank"}.
 
 ### Services (Services always end with xxx.Service)
-Always use a solutions folder if it does not already exist
-* HumanResources (Solutions Folder)
-* PerformanceDevelopment.Service
-
+Always use a solutions folder if it does not already exist.
 All Services are suffixed with dotService in order to make finding the actual DLL easy within a solution.
 
 ### Structure
@@ -34,42 +27,39 @@ All Services are suffixed with dotService in order to make finding the actual DL
 
 
 ### Service Solutions contains the following projects
-* PerformanceDevelopment.Service.API
+* <i>Solution</i>.Service.API
 > Controllers
-* PerformanceDevelopment.Service.Business
+* <i>Solution</i>.Service.Business
 > Business Logic related only to this project
-* PerformanceDevelopment.Service.Data
+* <i>Solution</i>.Service.Data
 > DbContext
 > Model Enitities
 > Unit of Work
-* PerformanceDevelopment.Service.Dto
+* <i>Solution</i>.Service.Dto
 > Classes correcponding to enities in Model Enitities
-* PerformanceDevelopment.Service.Integration
+* <i>Solution</i>.Service.Integration
 > All calls to external Services (Preferred method: fluently)
-* PerformanceDevelopment.Service.UnitTests
+* <i>Solution</i>.Service.UnitTests
 > Create unit tests per model entity 
-
-### DTO
-Example: ApprovalDTO
-* We try to keep dtos named in the same way as the Entity they represent. 
-* Dto’s are placed in the same folder structure as mentioned above. 
-* HumanResources > PerformanceDevelopment.Service.Dto > ApprovalDTO.cs
-
-### Naming Conventions for Controllers and Actions (Web API)
-* Use plural nouns for Controllers
-* Use nouns but no verbs for Actions
-* If a method status it only gets an employee, it should only do that.
-* HumanResources > PerformanceDevelopment.API > ApprovalController.cs
 
 ### General
 * Always prefer meaningful names for your class, property, method, etc. This will be very useful for you to maintain the code in future.
-* Never have a different class or variable name that is in a different case. Example Person and person.
-* Don't use the same name used in .NET Framework. People who are new to your code have great difficulty to understand it easily.
+* Never have a different class or variable name that is in a different case. 
+> Example: <i>Entity</i> and <i>entity</i>.
+* Don't use the same name used in .NET Framework. Developers who are new to your code have great difficulty to understand it easily.
 * Always use “I” as prefix for Interfaces. This is a common practice for declaring interfaces.
-* Never prefix or suffix the class name to its property names. It will unnecessarily increase the property name. If “Firstname” is a property of “Person” class, you can easily identify it from that class directly. No need to write “PersonFirstname” or “FirstnameOfPerson”.
-* The prefix “Is”, “Has” or “Can” for boolean properties like “IsVisible”, “HasChildren”, “CanExecute”. These give proper meaning to the properties.
-* <b>Private variables</b> start with an underscore: private bool _IsVisible;
-* <b>Paramenters</b> must be descriptive (<b>do not use</b>: int value) and start with lowercase then pascalCase: (int employeeNumber)
-* <b>Methods</b> give descriptive names as simple as possible. Starts with capital letter, then pascalCase. GetEmployee(int employeeNumber)
+> Example: I<i>Entity</i>.cs
+* Never prefix or suffix the class name to its property names. It will unnecessarily increase the property name. If “Firstname” is a property of <i>Entity</i> class, you can easily identify it from that class directly. No need to write <i>Entity</i>Firstname or FirstnameOf<i>Entity</i>.
+* The prefix “Is”, “Has” or “Can” for boolean properties like these give proper meaning to the properties.
+> Example: 
+>> IsVisible <br />
+>> HasChildren <br />
+>> CanExecute <br />
+* <b>Private variables</b> start with an underscore.
+> Example: private bool _IsVisible;
+* <b>Paramenters</b> must be descriptive (<b>do not use</b>: int value) and start with lowercase then pascalCase.
+> Example: (int <i>entity</i>Number)
+* <b>Methods</b> give descriptive names as simple as possible. Starts with capital letter, then pascalCase. 
+> Example: Get<i>Entity</i>(int <i>entity</i>Number)
 * When a method has a return value that will not be used, use discards, this enhance its readability and maintainability. [Discards - C# Fundamentals](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/discards){:target="_blank"}
 * Always use curley brackets {} for if, switch, for, etc statements, even if it has only one line of code.

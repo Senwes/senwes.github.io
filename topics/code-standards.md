@@ -4,7 +4,8 @@ title: Code Standards
 body_class: code
 ---
 
-The following checklist should be applied when conducting a [Code Review](code-reviews.html).
+The following checklist should be applied when conducting a [Code Review](code-reviews.html).<br />
+Make sure to read the [Handbook Extension: SQL](https://senwes.visualstudio.com/Applications/_wiki/wikis/Applications.wiki/22/Engineering-Handbook-Extension-SQL){:target="_blank"}.
 
 ### Introduction
 
@@ -17,26 +18,13 @@ Use the formatter that Visual studio has to format your code. This will add the 
 *	Ctrl+A then Ctrl+K+F
 *	Shift+Alt+F
 
-### Security
-
-* Code should never contain credentials. These are a property of the environment.
-* Is the new code opening up a vulnerability? We should all be aware of methods of attack - such as those identified by OWASP[^1].
-* Assets should be loaded with a HTTPS URL wherever possible.
-
-Senwes Applications policy is everything is secured unless otherwise stated.
-* We use token-based security on Microservices. 
-* 2 Tokens are created - System and Expiration token. Each request within a time frame has a token which expires and cannot be used again. 
-* All communication to microservices is secured with SSL. 
-* Tokens are encrypted using SQL encryption and C# based encryption for Expiration Tokens as these are not stored in the DB.
-* We used a scaled down token for certain methods/actions where only a token is passed in as from SAP.
-
 ### Layered Architecture
 * Click [here](https://miro.com/app/board/uXjVPaY7IB4=/){:target="_blank"} to view or update this structure.
 
 ### General
 
 * <b>Spelling correctly is crutial.</b>
-* [Naming Conentions](naming-conventions.html)
+* [Naming Conventions](naming-conventions.html)
 * Object-Oriented Analysis and Design (OOAD) Principles
 1.	Single Responsibility Principle (SRS): Do not place more than one responsibility into a single class or function, refactor into separate classes and functions.
 2.	Open Closed Principle: While adding new functionality, existing code should not be modified. New functionality should be written in new classes and functions.
@@ -60,7 +48,7 @@ Senwes Applications policy is everything is secured unless otherwise stated.
 
 ### Technical debt and “fixing broken windows”
 
-Technical debt[^2] refers to aspects of a codebase that are known to be problematic, but are introduced to facilitate some other goal - usually faster delivery.
+Technical debt[^1] refers to aspects of a codebase that are known to be problematic, but are introduced to facilitate some other goal - usually faster delivery.
 
 The metaphor is supposed to draw on how real-life debt works:
 
@@ -94,15 +82,15 @@ Finally, if you find yourself manually fixing the same kind of broken window in 
 
 None of these are hard-and-fast rules; we recommend being mindful of the effect of our changes on others.
 
-### Code smells[^3]
+### Code smells[^2]
 
-* Repetitive code - DRY[^4]
+* Repetitive code - DRY[^3]
 * Large classes
-* Poor separation of concerns[^5]
+* Poor separation of concerns[^4]
 * Badly-named files or classes
 * Undefined, badly-named, or redundant variables
 * Unnecessary code where a command might do the trick
-* Does the code look complicated and is it hard to understand? KISS.[^6]
+* Does the code look complicated and is it hard to understand? KISS.[^5]
 * Use constants
 * // Are there enough comments in the code?
 
@@ -130,9 +118,8 @@ We need to be mindful of how our applications perform on many levels. We should 
 
 There should be living documentation - project READMEs, API documentation (if applicable), wiki pages, and/or infra runbooks. Ensure these are kept up-to-date in code changes. See [Project Documentation](project-documentation.html) for more specifics.
 
-[^1]: [OWASP Top-Ten](https://owasp.org/www-project-top-ten/){:target="_blank"}
-[^2]: [Technical debt](https://en.wikipedia.org/wiki/Technical_debt){:target="_blank"}
-[^3]: [Code smells](https://sourcemaking.com/refactoring/smells){:target="_blank"}
-[^4]: [Don’t repeat yourself - DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself){:target="_blank"}
-[^5]: [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns){:target="_blank"}
-[^6]: [KISS principle](https://en.wikipedia.org/wiki/KISS_principle){:target="_blank"}
+[^1]: [Technical debt](https://en.wikipedia.org/wiki/Technical_debt){:target="_blank"}
+[^2]: [Code smells](https://sourcemaking.com/refactoring/smells){:target="_blank"}
+[^3]: [Don’t repeat yourself - DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself){:target="_blank"}
+[^4]: [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns){:target="_blank"}
+[^5]: [KISS principle](https://en.wikipedia.org/wiki/KISS_principle){:target="_blank"}

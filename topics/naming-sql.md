@@ -4,16 +4,11 @@ title: SQL Standards and Naming Conventions
 body_class: code
 ---
 
-* Example for a naming a SQL table: HumanResources_PerformanceDevelopment_Approval
+Make sure to read the [Handbook Extension: SQL](https://senwes.visualstudio.com/Applications/_wiki/wikis/Applications.wiki/22/Engineering-Handbook-Extension-SQL){:target="_blank"}.
+
+
 * Datatype for datetime field should always be <b>DateTime2 </b> as recommended by Microsoft. [DateTime vs DateTime2 in Sql Server](https://www.tutorialsteacher.com/articles/datetime-vs-datetime2-in-sqlserver#:~:text=Microsoft%20recommends%20using%20DateTime2%20instead,Datetime2%20aligns%20with%20SQL%20standards){:target="_blank"}.
 * Dates are always displayed as yyyy-MM-DD HH:mm or yyyy/MM/DD HH:mm in en-ZA format.
-
-### Encryption
-* SQL Encryption is always used for data that can identify any entity/person in accordance with POPI act. 
-* To query such a table a View will need to be created where the dbo.S_Decrypt method is called on the encrypted data. 
-* varbinary(max) column is used for encrypted data.
-* SenwesWebEncryption project/ Base 64 encryption can be used for data in transit.
-* Mask POPIA sensitive columns: MASKED WITH (FUNCTION = 'partial(1, "xxxxx", 1)') .
 
 ### DB Structure<br />
 <b>Senwes Applications employs a policy of business logic, does not reside in a DB but at the endpoint.</b>
@@ -28,19 +23,7 @@ body_class: code
 ### Table Structures
 1.  We always use word separators (underscore) to instead of spaces.
 2.	Upper Camel Case table name convention is used (Aka Pascal Case).
-	> Example: RequestStatus
-3.	Auto Incremented Primary keys are always named <i>tablename</i>ID.
-	> Example: RequestStatusID
+3.	Auto Incremented Primary keys are always named <i>Tablename</i>ID.
 4.	Foreign key columns that have a relationship should be suffixed with _FK.
-5.	Foreign keys should be named as follows <i>pkname</i>_FK.
-	> Example: RequestStatusID_FK
-7.	All tables should always try to Implement the following columns: 
-	> DateCreated, CreatedBy, CreatedByName, DateModified, ModifiedBy, ModifiedByName, IsRemoved
-8.  OneID will be used to fill CreatedBy and ModifiedBy fields.
-9.	OneID fields are always a varchar.
-10.	EmployeeNo is always int.
-11.	No relationship must be made FROM a table that constantly changes, SiteContactDetails or EmployeeDB. The reverse is allowed. 
-12.	If you do not need to use varchar(max), 50 or 255 etc should be used instead.
-13.	For SQL Encryption, varbinary(max) is used.
-14.	SQL Views are always prefixed with vw. 
-	> Example: vwEmployeeDB
+5.	Foreign keys should be named as follows <i>PKname</i>_FK.
+6.	SQL Views are always prefixed with vw. 

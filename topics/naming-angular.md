@@ -14,20 +14,24 @@ Always work from the original template from the site you are working with. Layou
 Senwes Applications make use of [Syncfusion](https://ej2.syncfusion.com/angular/documentation/introduction/){:target="_blank"} keep under release version 19.? and [Nebular](https://akveo.github.io/nebular/docs/getting-started/what-is-nebular#what-is-nebular){:target="_blank"} third party components, with [Font Awesome](https://fontawesome.com/v4/){:target="_blank"} and [Eva Icons](https://akveo.github.io/eva-icons/#/){:target="_blank"}.
 
 ### General
-* <b>Private variables</b> start with an underscore and lowercase then pascalCase: private bool _isVisible;
-* <b>Paramenters</b> must be descriptive (<b>do not use</b>: int value) and start with lowercase then pascalCase: (int employeeNumber)
-* <b>Methods</b> give descriptive names as simple as possible. Starts with lower letter then pascalCase. getEmployee(int employeeNumber)
+* <b>Private variables</b> start with an underscore and lowercase then pascalCase.
+> Example: private bool _isVisible;
+* <b>Paramenters</b> must be descriptive (<b>do not use</b>: int value) and start with lowercase then pascalCase.
+> Example: (int <i>entity</i>Number)
+* <b>Methods</b> give descriptive names as simple as possible. Starts with lower letter then pascalCase. 
+> Example: get<i>Entity</i>(int <i>entity</i>Number)
 
 ### Basic Types
-Arrays
-let arr: Array<type> = [];
+Arrays<br />
+let <i>entities</i>: Array<type> = [];
 
 Iterators
 For each:
-A for each is different from the one in C# even though it will still work. Rather use how typescript prefers it to be used:
-Array.forEach((item) => {
-// do foreach
-});
+A for each is different from the one in C# even though it will still work. Rather use how typescript prefers it to be used.
+> Example:
+>><i>entities</i>.forEach((item) => {<br />
+>>// do foreach<br />
+>>});<br />
 
 ### Optimizing your app size
 
@@ -47,16 +51,16 @@ Readability will already make the next developers life so much easier that needs
 
 Organize your properties by data type keeping it all together and splitting it up with a new line.
 
-Example<br />
-objectOne: any = [];<br />
-objectTwo: any  = [];
+>Example: <br />
+>>objectOne: any = [];<br />
+>>objectTwo: any  = [];<br />
 
-isTrue: boolean;
-isFalse: boolean;
+>>isTrue: boolean;<br />
+>>isFalse: boolean;<br />
 
-clientName: string = 'John';
-clientSurname: string = 'Doe';
+>>name: string = 'John';<br />
+>>surname: string = 'Doe';<br />
 
-clientAge: number;
+>>age: number;<br />
 
 Indicate on functions if it is public or private. Move all private functions to the button of the component keep what is private sperate from the public functions.
