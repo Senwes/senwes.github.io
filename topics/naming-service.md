@@ -25,20 +25,18 @@ All Services are suffixed with dotService in order to make finding the actual DL
 * For Angular caching, read [this](https://baldur.gitbook.io/angular/rxjs/rxjs/sharereplay){:target="_blank"} related article on ShareReplay.
 * Please take precaution when using caching. Refresh/Delete the cache when data changes etc.
 
-
 ### Service Solutions contains the following projects
 * <i>Solution</i>.Service.API
 > Controllers
 * <i>Solution</i>.Service.Business
-> Business Logic related only to this project
+> Business Logic related to this project<br />
+> Includes Integration Folder for external service calls (Preferred method: Fluently) 
 * <i>Solution</i>.Service.Data
 > DbContext
 > Model Enitities
 > Unit of Work
 * <i>Solution</i>.Service.Dto
 > Classes correcponding to enities in Model Enitities
-* <i>Solution</i>.Service.Integration
-> All calls to external Services (Preferred method: fluently)
 * <i>Solution</i>.Service.UnitTests
 > Create unit tests per model entity 
 
