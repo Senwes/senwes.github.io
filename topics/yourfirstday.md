@@ -28,7 +28,7 @@ Follow this guide to enable yourself to start working as soon as possible.
 	
 * Node
 	
-* Angular v10
+* Angular 10.2.4 
 	
 * Postman
 
