@@ -29,14 +29,17 @@
     <ul>
         <li{% if page.body_class=='code' %} class="active" {% endif %}>
             <a href="{{ site.baseurl }}/topics/code-standards.html">Code Standards</a>
-            </li>
+            <ul>
+            <li><a href="https://senwes.sharepoint.com/sites/KnowledgeBase909/_layouts/15/doc.aspx?sourcedoc={dd0dd620-3f00-4310-9127-a56d6a013cad}&action=edit">Security Development Standards</a></li>
+            </ul>            
+
             <li{% if page.body_class=='code' %} class="active" {% endif %}>
                 <a href="{{ site.baseurl }}/topics/naming-conventions.html">Naming Conventions</a>
                 <ol>
                     <li> <a href="{{ site.baseurl }}/topics/naming-sql.html">SQL</a></li>
                     <li> <a href="{{ site.baseurl }}/topics/naming-service.html">Services</a></li>
                     <li> <a href="{{ site.baseurl }}/topics/naming-angular.html">Angular</a></li>
-                  </ol>
+                </ol>
                 </li>
                 <li{% if page.body_class=='code' %} class="active" {% endif %}>
                     <a href="{{ site.baseurl }}/topics/wiki.html">Wiki's</a>
@@ -54,8 +57,8 @@
                                     <a href="{{ site.baseurl }}/topics/builds.html">Builds</a>
                                     </li>
                                     <li{% if page.body_class=='code' %} class="active" {% endif %}>
-                                    <a href="{{ site.baseurl }}/topics/yourfirstday.html">Your First Day</a>
-                                    </li>
+                                        <a href="{{ site.baseurl }}/topics/yourfirstday.html">Your First Day</a>
+                                        </li>
     </ul>
     <a id="close-btn" class="btn" href="#top"><span aria-hidden="true">✖</span><span class="sr-only">Close
             menu</span></a>
