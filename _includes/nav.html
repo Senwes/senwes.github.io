@@ -28,10 +28,14 @@
     <h2 class="gamma">Code</h2>
     <ul>
         <li{% if page.body_class=='code' %} class="active" {% endif %}>
-            <a href="{{ site.baseurl }}/topics/code-standards.html">Code Standards</a>
-            <ul>
-            <li><a href="https://senwes.sharepoint.com/sites/KnowledgeBase909/_layouts/15/doc.aspx?sourcedoc={dd0dd620-3f00-4310-9127-a56d6a013cad}&action=edit">Security Development Standards</a></li>
-            </ul>            
+            <li{% if page.body_class=='code' %} class="active" {% endif %}>
+                <a href="{{ site.baseurl }}/topics/code-standards.html">Code Standards</a>
+                <ul>
+                    <li><a
+                            href="https://senwes.sharepoint.com/sites/KnowledgeBase909/_layouts/15/doc.aspx?sourcedoc={dd0dd620-3f00-4310-9127-a56d6a013cad}&action=edit">Security
+                            Development Standards</a></li>
+                </ul>
+            </li>
 
             <li{% if page.body_class=='code' %} class="active" {% endif %}>
                 <a href="{{ site.baseurl }}/topics/naming-conventions.html">Naming Conventions</a>
