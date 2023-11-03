@@ -23,6 +23,7 @@ Use the formatter that Visual studio has to format your code. This will add the 
 
 ### General
 
+* [Angular Coding Standards](https://senwes.visualstudio.com/Applications/_wiki/wikis/Applications.wiki/34/Angular-Coding-Standards)
 * [C Sharp Coding Standards](https://senwes.visualstudio.com/Applications/_wiki/wikis/Applications.wiki/32/C-Sharp-Coding-Standards)
 * <b>Spelling correctly is crutial.</b>
 * [Naming Conventions](naming-conventions.html)
