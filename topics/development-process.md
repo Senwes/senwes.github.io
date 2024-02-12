@@ -18,31 +18,30 @@ Before you start, make sure the issue is broken down to the minimum viable produ
 
 Issues should succinctly describe how to fix them. Vague descriptions make it hard to know when the issue is complete, and can make it harder for other people to get involved in the project.
 
-Create a development plan in [Microsoft Planner](https://tasks.office.com/senwes.co.za/en-US/Home/Planner/){:target="_blank"}.
-* Create new project.
+Create a development plan in [Senwes Teamwork](https://teamwork.senwes.co.za//){:target="_blank"}.
+* Project your are working on will be setup in Teamwork.
 * Divide project in workable standalone units.
-* Create buckets for:
-    1. Todo
-    2. Doing
-    3. PR
-    4. Testing
-    5. Completed
-    6. Roll Out - Please add items in this bucket throughout the development process to ensure complete rollout.
+* Sub tasks can be created in categories:
+    1. Planned
+    2. In Progress
+    3. QA
+    4. UAT
+    5. Implementation (Roll Out) - Please add items in this bucket throughout the development process to ensure complete rollout.
     <b>It is up to the developer to move items between buckets on time and schedule meetings for internal demos and PR's.</b>
 
-* Create tasks for coding, internal demo before PR, PR and demo to user.
+* Create sub tasks for coding, internal demo before PR, PR and demo to user.
 * Asign revelant developer per task and the reviewer, with due dates.
 
 
 **1. Take the issue**
 
-When working on an issue, make sure you’re not overlapping with existing work. This is typically handled by assigning the issue to yourself via [Microsoft Planner](https://tasks.office.com/senwes.co.za/en-US/Home/Planner/){:target="_blank"}.
+When working on an issue, make sure you’re not overlapping with existing work. This is typically handled by assigning the issue to yourself via [Senwes Teamwork](https://teamwork.senwes.co.za//){:target="_blank"}.
 
 **2. Write the code!**
 
 You’ve done the easy bits, now it’s time to actually do the work.
 
-<b>This work needs to happen on a branch. Create a project branch from the master branch.</b> The pattern you should use is `{ESM_project_number}_{name_of_project}`. <br /> `(e.g. 123_OneAgriVendor)`.<br />Then create branches per featrure with this pattern `{ESM_project_number}_{name_of_project}_{name_of_feature}`<br /> `(e.g. 123_OneAgriVendor_ChangeMasterData)`.<br />
+<b>This work needs to happen on a branch. Create a project branch from the master branch.</b> The pattern you should use is `{ESM_project_number}_{name_of_project}`. <br /> `(e.g. 123_OneAgriVendor)`.<br />Then create branches per featrure with this pattern `{Project_number}_{name_of_project}_{name_of_feature}`.<br />
 Please read <a href="/topics/source-control">this</a> important information when working with branches.
 
 **3. Push early, push often**
@@ -87,3 +86,7 @@ Generally, these features should be entirely independent of each other. This all
 Features should be shipped early in a minimal state, then improved further in future changes. The agile methodology is heavily focused on iterative improvement, encouraging constant improvement.
 
 This means merging features when they’re ready in a minimal state, and continuing to build on top of this. This makes development much more parallelisable (it’s a word, trust me), as multiple engineers can work on different parts of the same feature once the base of it is in place. This is crucial for asynchronous work, with Senwes Applications having a distributed workforce.
+
+### Governance feedback to be completed with roll-out for UAT and Production
+
+Before publishing your new project or feature, for either testing or production, please complete the [Development Governance Checklist](https://form.jotform.com/232976282852568) as thoroughly as possible, where you see any shortcomings, please implement the correction before publishing.
