@@ -19,7 +19,7 @@ Before you start, make sure the issue is broken down to the minimum viable produ
 Issues should succinctly describe how to fix them. Vague descriptions make it hard to know when the issue is complete, and can make it harder for other people to get involved in the project.
 
 Create a development plan in [Senwes Teamwork](https://teamwork.senwes.co.za//){:target="_blank"}.
-* Project your are working on will be setup in Teamwork.
+* Projects your are working on will be setup in Teamwork.
 * Divide project in workable standalone units.
 * Sub tasks can be created in categories:
     1. Planned
@@ -41,7 +41,7 @@ When working on an issue, make sure you’re not overlapping with existing work.
 
 You’ve done the easy bits, now it’s time to actually do the work.
 
-<b>This work needs to happen on a branch. Create a project branch from the master branch.</b> The pattern you should use is `{ESM_project_number}_{name_of_project}`. <br /> `(e.g. 123_OneAgriVendor)`.<br />Then create branches per featrure with this pattern `{Project_number}_{name_of_project}_{name_of_feature}`.<br />
+<b>This work needs to happen on a branch. Create a project branch from the master branch.</b> The pattern you should use is `{ESM_project_number}_{name_of_project}`. <br />Then create branches per featrure with this pattern `{Project_number}_{name_of_project}_{name_of_feature}`.<br />
 Please read <a href="/topics/source-control">this</a> important information when working with branches.
 
 **3. Push early, push often**
